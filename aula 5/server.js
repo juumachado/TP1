@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 })
 app.post("/dados", (req, res) => {
     if (!req.body.nomezinho == " "){
-        res.send("Dados recebidos com sucesso!")
+        res.send("Dados recebidos com sucesso.")
     }else {
         res.send("Erro.")
     }
